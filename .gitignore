@@ -6,3 +6,4 @@ tempCodeRunnerFile.py
 *.log
 *.tmp
 /.vscode
+*.gitignore
