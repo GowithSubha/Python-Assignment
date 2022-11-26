@@ -5,5 +5,4 @@ tempCodeRunnerFile.py
 *.dll
 *.log
 *.tmp
-/.vscode
-*.gitignore
+/.vscode/*
