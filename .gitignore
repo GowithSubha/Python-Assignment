@@ -1,0 +1,8 @@
+*.zip
+*.rar
+tempCodeRunnerFile.py
+*.exe
+*.dll
+*.log
+*.tmp
+/.vscode
