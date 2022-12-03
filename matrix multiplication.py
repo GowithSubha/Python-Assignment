@@ -1,4 +1,3 @@
-#WAP to perform matrix multiplication (3x3). 
 
 def main():
     matrix1 = []
