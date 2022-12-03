@@ -3,10 +3,10 @@
 import subprocess as sp
 import time
 program_name = "notepad.exe"
-filename = "neha/employee.txt"
+filename = "employee.txt"
 
 
-file = open("neha/employee.txt", "r")
+file = open(filename, "r")
 print(file.read())
 file.close()
 
@@ -18,12 +18,12 @@ if ch == "y":
     sp.Popen([program_name, filename])
     t = int(input("Enter the time in seconds that will take to edit your file: "))
     time.sleep(t)
-    file = open("neha/employee.txt", "r")
-    print(file.read())
+    file = open(filename, "r")
+    print("After edited \n \n",file.read())
     file.close()
 else:
     print("File not edited!")
-    file = open("neha/employee.txt", "r")
+    file = open(filename, "r")
     print(file.read())
     file.close()
 
